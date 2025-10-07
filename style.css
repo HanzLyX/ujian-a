@@ -1,0 +1,23 @@
+form {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #d0eaff, #f7f7f7);
+  /* text-align: center; */
+  margin: 0;
+  padding: 60px 20px;
+}
+
+
+button {
+    background-color: greenyellow;
+}
+
+.input::selection{
+    background-color: darkmagenta;
+}
