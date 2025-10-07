@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Kasir</title>
+    <!-- <style ></style> -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <form>
+      <h1>Form Kasir</h1>
+      <label for="inputNama">Nama Customer</label>
+      <br />
+      <input type="text" placeholder="Masukkan Nama" id="nama" />
+      <label for="InputStatus"></label>
+      <br />
+
+      <br />
+      <label for="status">Status Customer</label>
+      <br>
+      <input type="radio" id="status" />Non-Member
+      <input type="radio" id="status" />Member (Diskon 5%)
+      <br />
+      <br />
+      <label for="inputBarang"> Pilih Barang </label>
+      <br />
+      <select id="inputBarang">
+        <option value="boneka">Pensil</option>
+        <option value="boneka">Buku</option>
+        <option value="boneka">Ballpoint</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="inputSatuan"> Harga Satuan </label>
+      <br />
+      <input type="text" name="inputSatuan" id="inputSatuan" />
+
+      <br />
+      <br />
+
+      <label for="inputJumlah"> Jumlah </label>
+      <br />
+      <input type="text" name="inputJumlah" id="inputJumlah" />
+
+      <br />
+      <br />
+
+      <label for="subTotal"> Sub Total </label>
+      <br />
+      <input type="text" name="subTotal" id="subTotal" disabled />
+
+      <br />
+      <br />
+
+      <label for="diskon"> Diskon </label>
+      <br />
+      <input type="text" name="diskon" id="diskon" disabled />
+
+      <br />
+      <br />
+
+      <label for="total"> Total </label>
+      <br />
+      <input type="text" name="total" id="total" disabled />
+
+      <br />
+      <br />
+
+      <button onclick="simpan()">Simpan Transaksi</button>
+    </form>
+  </body>
+</html>
